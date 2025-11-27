@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  postgres-source:
+    image: postgres:15
+    container_name: postgres-source
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: production_db
+    ports:
+      - "5432:5432"

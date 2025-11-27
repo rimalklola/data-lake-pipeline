@@ -1,0 +1,16 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+
+# --- Sensitive Credentials (DO NOT REMOVE) ---
+gcp_credentials.json
+pipeline_state.json
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
